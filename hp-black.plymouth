@@ -1,0 +1,10 @@
+[Plymouth Theme]
+Name=hp-black
+Description=HP black background and blue logo theme
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/hp-black
+ScriptFile=/lib/plymouth/themes/hp-black/hp-black.script
+
+
