@@ -11,7 +11,7 @@ if ( Plymouth.GetMode () == "boot" )
     logo.sprite.SetZ (10000);
     progress = 0;
 
-    progress_box.image = Image("throbber-0" + progress + ".png");
+    progress_box.image = Image("throbber-white-0" + progress + ".png");
     progress_box.sprite = Sprite();
     progress_box.x = Window.GetWidth() / 2 - progress_box.image.GetWidth()  / 2;
     progress_box.y = Window.GetHeight() * 0.75 - progress_box.image.GetHeight() / 2;
